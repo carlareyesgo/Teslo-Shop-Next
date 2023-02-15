@@ -1,5 +1,5 @@
 
-import { ProductList } from '@/components/products';
+import { ProductList } from '@/components/product';
 import { Grid } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
