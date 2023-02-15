@@ -1,5 +1,5 @@
 import { ShopLayout } from "@/components/layouts"
-import { ProductSlideshow } from "@/components/products"
+import { ProductSlideshow, SizeSelector } from "@/components/products"
 import { ItemCounter } from "@/components/ui"
 import { initialData } from "@/database/products"
 import { Box, Button, Chip, Grid, Typography } from "@mui/material"
@@ -31,6 +31,7 @@ const ProductPage = () => {
                 Cantidad
               </Typography>
               <ItemCounter/>
+              <SizeSelector /* selectedSize={product.sizes[2]} */ sizes={product.sizes}/>
             </Box>
 
             <Button color="secondary" className='circular-btn'>
